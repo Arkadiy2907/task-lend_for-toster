@@ -1,6 +1,7 @@
 'use strict'
 const oldPriceNow = '263.00';
 const newPriceNow = '163.00';
+const startTimeForCountDown = 5; // 5 hours
 
 
 const initCountDownAndPrice = () => {
@@ -10,7 +11,7 @@ const initCountDownAndPrice = () => {
   newPrice.textContent = `R ${newPriceNow}`;
 
   const timer = document.querySelector('.time_countDown');
-  let seconds = 3600 * 5; // 5 hours 
+  let seconds = 3600 * startTimeForCountDown;
 
   function countDown() {
     if (seconds > 0) {
