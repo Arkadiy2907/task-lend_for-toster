@@ -9,7 +9,7 @@
   background-position: center;
 
   .timer {
-    @include timerAndPrice_smallWin($darckOrange);
+    @include timerAndPrice_smallWin($darkOrange);
     gap: 7px;
 
     p {
