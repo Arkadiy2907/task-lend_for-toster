@@ -25,3 +25,4 @@ https://www.figma.com/file/RGEN3vzVJA44v2Cu1Fal7P/%D0%A2%D0%B5%D1%81%D1%82%D0%BE
 
 #P.S.
 Используемый код пока не минифицировал (js, css), оставил исходник для наглядности
+Задеплоил тут: https://650c1d2e0a9f9d10693a2c07--effervescent-horse-9ff53e.netlify.app/
