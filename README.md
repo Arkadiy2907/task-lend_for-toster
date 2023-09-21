@@ -14,7 +14,7 @@ https://www.figma.com/file/RGEN3vzVJA44v2Cu1Fal7P/%D0%A2%D0%B5%D1%81%D1%82%D0%BE
 6.  Кнопка BUY NOW со ссылкой на youtube.com
 
 #Технические требования:
-Использовал HTML5, CSS3, JS, Swiper.JS (https://swiperjs.com/)
+Использовал HTML5, CSS3, JS, SwiperJS (https://swiperjs.com/)
 Блок реализован для ширины экрана 390px
 
 #Установка зависимостей:
@@ -25,4 +25,4 @@ https://www.figma.com/file/RGEN3vzVJA44v2Cu1Fal7P/%D0%A2%D0%B5%D1%81%D1%82%D0%BE
 
 #P.S.
 Используемый код пока не минифицировал (js, css), оставил исходник для наглядности.
-Задеплоил тут: https://650c1d2e0a9f9d10693a2c07--effervescent-horse-9ff53e.netlify.app/
+Задеплоил тут: https://effervescent-horse-9ff53e.netlify.app/
