@@ -24,5 +24,4 @@ https://www.figma.com/file/RGEN3vzVJA44v2Cu1Fal7P/%D0%A2%D0%B5%D1%81%D1%82%D0%BE
 через index.html
 
 #P.S.
-Используемый код минифицировал (js, css), но оставил исходник для наглядности,
-так же можно извлечь например при помощи https://www.websiteplanet.com/ru/webtools/jscssminifier/
+Используемый код пока не минифицировал (js, css), оставил исходник для наглядности
