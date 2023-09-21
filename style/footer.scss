@@ -9,7 +9,7 @@
     background: $green;
     padding: 10px 2px 2px;
     border-radius: 10px;
-    width: calc(390px - 3%);
+    width: calc($maxWidth - 3%);
     text-align: center;
     opacity: 1;
     transition: opacity 0.4s linear;

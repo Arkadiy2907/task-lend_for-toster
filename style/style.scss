@@ -1,4 +1,3 @@
-@import './global/normalize';
 @import './global/nullstyle';
 @import './global/variables';
 @import './header';
@@ -8,8 +7,14 @@
 @import './footer';
 
 @font-face {
-  font-family: 'gothampro';
-  src: url('../font/gothampro.ttf');
+  font-family: 'GothamProRegular';
+  src: url('../fonts/GothamProRegular/GothamProRegular.eot');
+  src: url('../fonts/GothamProRegular/GothamProRegular.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/GothamProRegular/GothamProRegular.woff') format('woff'),
+    url('../fonts/GothamProRegular/GothamProRegular.ttf') format('truetype');
+  // font-family: 'gothampro';
+  // src: url('../font/gothampro.ttf');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,7 +31,7 @@
   .wrap {
     display: flex;
     flex-direction: column;
-    width: 390px;
-    font-family: 'gothampro', sans-serif;
+    width: $maxWidth;
+    font-family: 'GothamProRegular', sans-serif;
   }
 }

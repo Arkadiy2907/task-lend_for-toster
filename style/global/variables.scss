@@ -1,6 +1,7 @@
 $green: #37d997;
 $white: #ffffff;
 $darckOrange: #f19d2f;
+$maxWidth: 390px;
 
 @mixin timerAndPrice_smallWin($color) {
   background-color: $color;
