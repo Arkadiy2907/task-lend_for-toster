@@ -125,7 +125,8 @@
 
       .select {
         background-color: $white !important;
-        padding: 10px 35px;
+        padding: 10px 5px;
+        width: 140px;
         border-radius: 10px;
         text-align: center;
         font-size: 21px;
@@ -138,10 +139,6 @@
         option {
           text-align: center;
         }
-      }
-
-      .select_size {
-        padding: 10px 60px;
       }
     }
   }

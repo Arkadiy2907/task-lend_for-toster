@@ -14,7 +14,7 @@ https://www.figma.com/file/RGEN3vzVJA44v2Cu1Fal7P/%D0%A2%D0%B5%D1%81%D1%82%D0%BE
 6.  Кнопка BUY NOW со ссылкой на youtube.com
 
 #Технические требования:
-Использовал HTML5, CSS3, JS, Swiper.JS (https://swiperjs.com/)
+Использовал HTML5, CSS3, JS, SwiperJS (https://swiperjs.com/)
 Блок реализован для ширины экрана 390px
 
 #Установка зависимостей:

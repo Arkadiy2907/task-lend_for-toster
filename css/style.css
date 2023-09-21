@@ -454,7 +454,8 @@ h6 {
 }
 .production .production_form-control .form .select {
   background-color: #ffffff !important;
-  padding: 10px 35px;
+  padding: 10px 5px;
+  width: 140px;
   border-radius: 10px;
   text-align: center;
   font-size: 21px;
@@ -468,9 +469,6 @@ h6 {
 }
 .production .production_form-control .form .select option {
   text-align: center;
-}
-.production .production_form-control .form .select_size {
-  padding: 10px 60px;
 }
 
 .footer {
@@ -488,6 +486,8 @@ h6 {
   text-align: center;
   opacity: 1;
   transition: opacity 0.4s linear;
+  margin-bottom: 5px;
+  z-index: 5;
 }
 .footer .btn .btn_a {
   color: white;
