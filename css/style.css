@@ -425,7 +425,7 @@ h6 {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .production .production_about {
   width: 90%;
