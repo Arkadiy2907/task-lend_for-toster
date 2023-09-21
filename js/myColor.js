@@ -5,7 +5,7 @@ const initMyColor = () => {
 
   colorSelect.addEventListener("change", function () {
     const selectedColor = colorSelect.value;
-    const productionAbout = document.querySelector(".production_about");
+    const productionAbout = document.querySelector(".production");
     productionAbout.style.backgroundColor = selectedColor;
   });
 }
