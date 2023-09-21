@@ -1,0 +1,30 @@
+.timerAndPrice {
+  width: 100%;
+  height: 281px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-image: url("../pic/timerAndPrice.png");
+  background-size: cover;
+  background-position: center;
+}
+.timerAndPrice .time {
+  background-color: #f19d2f;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  margin: 13px;
+  border-radius: 5px;
+}
+.timerAndPrice .price {
+  background-color: #37d997;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  margin: 13px;
+  border-radius: 5px;
+}

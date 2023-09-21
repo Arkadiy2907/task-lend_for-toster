@@ -1,0 +1,18 @@
+$green: #37d997;
+$white: #ffffff;
+$darckOrange: #f19d2f;
+
+@mixin timerAndPrice_smallWin($color) {
+  background-color: $color;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  margin: 13px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  gap: 4px;
+  font-weight: bold;
+  color: $white;
+}

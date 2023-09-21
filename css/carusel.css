@@ -1,0 +1,19 @@
+.carusel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.carusel .grade {
+  margin: 5px 0;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.carusel .grade p:first-child {
+  color: #2c2b31;
+}
+.carusel .grade p:nth-child(2) {
+  font-size: 21px;
+}

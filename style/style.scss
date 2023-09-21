@@ -1,0 +1,33 @@
+@import './global/normalize';
+@import './global/nullstyle';
+@import './global/variables';
+@import './header';
+@import './title';
+@import './timerAndPrice';
+@import './production';
+
+@font-face {
+  font-family: 'gothampro';
+  src: url('../font/gothampro.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    font-family: 'gothampro', sans-serif;
+  }
+}

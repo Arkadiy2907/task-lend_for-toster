@@ -1,0 +1,48 @@
+.timerAndPrice {
+  width: 100%;
+  height: 281px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-image: url('../pic/timerAndPrice.png');
+  background-size: cover;
+  background-position: center;
+
+  .timer {
+    @include timerAndPrice_smallWin($darckOrange);
+    gap: 7px;
+
+    p {
+      &:first-child {
+        font-size: 10px;
+        margin: 4px 7px;
+      }
+
+      &:nth-child(2) {
+        font-size: 21px;
+      }
+    }
+  }
+
+  .price {
+    @include timerAndPrice_smallWin($green);
+
+    .price_oldPrice {
+      position: relative;
+      font-size: 18px;
+
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: 50%;
+        left: 0;
+        right: 0;
+        border-bottom: 3.5px solid #e27500;
+      }
+    }
+
+    .newPrice {
+      font-size: 22px;
+    }
+  }
+}
